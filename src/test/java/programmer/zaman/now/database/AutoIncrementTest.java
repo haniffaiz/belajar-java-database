@@ -25,6 +25,7 @@ public class AutoIncrementTest {
             System.out.println("ID Comment : " + resultSet.getInt(1));
         }
 
+
         preparedStatement.close();
         connection.close();
     }
